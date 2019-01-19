@@ -16,7 +16,7 @@ android {
 
         }
         release {// 自己的签名文件
-            storeFile file("D:\\zdworkspase/otademon.jks")
+            storeFile file("/root/zd/gitworkspace")
             storePassword "123456"
             keyAlias "key"
             keyPassword "123456"
